@@ -34,7 +34,7 @@ app.post('/send-receipt', async (req, res) => {
 // Function to send email with attached PDF
 async function sendEmail( email ) {
   const transporter = nodemailer.createTransport({
-    host: "smtppro.zoho.com",
+    host: "smtp.zoho.com",
     port: 465,
     secure: true,
     auth: {
