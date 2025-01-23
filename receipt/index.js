@@ -23,7 +23,7 @@ module.exports = (
           }
         </style>
       </head>
-      <body style="margin: 0; padding: 0; background-color: #f0fcff">
+      <body style="margin: 0; padding: 0; background-color: #f0fcff ">
         <center
           class="wrapper"
           style="
@@ -105,13 +105,14 @@ module.exports = (
                                   <td class="top-text-div" style="padding: 0px 32px 0px 32px">
                                     <p
                                       style="
-                                        font-size: 30px;
+                                        font-size: 24px;
                                         font-weight: 700;
                                         color: #1e1e1e;
+                                        font-family: 'Poppins',
                                       "
                                       class="header-main"
                                     >
-                                       ${name}, your subscription to our service has expired. <span style="font-size: 40px;">☹️</span>
+                                      Hi ${name}, your subscription to our service has expired. <span style="font-size: 40px;">☹️</span>
                                     </p>
                                     <p
                                       style="
@@ -147,101 +148,6 @@ module.exports = (
                       </td>
                     </tr>
                   </table>         
-                </td>
-              </tr>
-    
-              <tr>
-              <td style="width:100%; padding:0;height: 100%; max-height:400px;">
-              <img style="padding: 0; width: 100%; height: 100%; max-height:400px; object-fit: contain; " src="https://res.cloudinary.com/dtovtmfea/image/upload/v1706227158/hha-sub-jobs_wixyz2.png" alt="">
-              
-              </td>
-              </tr>
-                <!-- Acct Summary Row -->
-          <tr>
-            <!-- <td class="sub-jobs"
-            style="padding:0;
-                max-width: 600px;
-                width: 100%;
-                height:  780px;
-                background-color: #f0fcff;
-                border-bottom:2px #55a654 solid;
-                background-image: url(https://res.cloudinary.com/dtovtmfea/image/upload/v1706227158/hha-sub-jobs_wixyz2.png);
-                background-repeat: no-repeat;
-                background-size: contain;
-                background-position: center;
-                /* background-position: center; */
-                /* ba */
-               
-                
-                ">
-          
-            </td> -->
-          
-             
-     
-         
-          </tr>
-    
-              <!-- AI ADS -->
-              <tr>
-                <td
-                  class="ai-ad-container"
-                  style="
-                  
-                    padding: 0;
-                    text-align: center;
-                    width: 100%;
-                    padding: 10px;
-                    background: #C5CFEA;
-                  "
-                >
-                  <p
-                    class="ai-ad-header"
-                    style="
-                      text-align: left;
-                      padding-left: 20px;
-                      font-weight: 600;
-                      font-size: 20px;
-                    "
-                  >
-                    Don’t miss out <br />
-                    on our AI feature
-                  </p>
-                  <p
-                    class="ai-ad-text"
-                    style="text-align: left; padding-left: 20px; font-size: 14px"
-                  >
-                    Get an immersive first-hand AI experience. Engage in
-                    conversations with your personalised AI assistant and explore
-                    the limitless potential of AI as your everyday companion.
-                  </p>
-                  <img
-                    src="https://res.cloudinary.com/dtovtmfea/image/upload/v1684080814/ai-chat-lg_cab1nu.png"
-                    style="border: 0; width: 100%; max-width: 500px"
-                    alt=""
-                  />
-                  <p
-                    class="ai-ad-price"
-                    style="padding-top: 40px; font-size: 16px; font-weight: 600"
-                  >
-                    With N1000 monthly fee, <br />
-                    get access to your AI assistant
-                  </p>
-                  <a href="https://www.househelpapp.com">
-                    <button
-                      class="ai-ad-btn"
-                      style="
-                        padding: 8px 12px;
-                        background: #55a654;
-                        color: #ffffff;
-                        border: none;
-                        border-radius: 4px;
-                        font-size: 14px;
-                      "
-                    >
-                      Learn more
-                    </button>
-                  </a>
                 </td>
               </tr>
             </table>
